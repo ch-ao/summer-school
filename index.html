@@ -35,10 +35,11 @@
       <form name='registration' method="post" netlify>
         <h4 class="mb-4 text-center">Earnest Education - Online Registration</h4>
         <h4 class="mb-4 text-center">知行教育 - 在线报名表</h4>
+        <!-- <p class="mb-4 text-center">(* required optional can be blank)</p> -->
 
         <!-- parent name  -->
         <div class="form-group row d-flex justify-content-center">
-          <label for="nameParent" required  class="col-sm-2 col-form-label">Your Name 家长姓名 *</label>
+          <label for="name" required class="col-sm-2 col-form-label">Name 姓名 *</label>
           <div class="col-sm-4">
             <input class="form-control" required name="nameParent">
           </div>
@@ -46,41 +47,25 @@
 
         <!-- phone  -->
         <div class="form-group row d-flex justify-content-center">
-          <label for="phone" class="col-sm-2 col-form-label">Phone 联系电话</label>
+          <label for="email" class="col-sm-2 col-form-label">Email 电子邮箱 *</label>
           <div class="col-sm-4">
-            <input class="form-control" name="phone">
-          </div>
-        </div>
-
-        <!-- phone  -->
-        <div class="form-group row d-flex justify-content-center">
-          <label for="email" class="col-sm-2 col-form-label">Email 电子邮箱</label>
-          <div class="col-sm-4">
-            <input class="form-control" type="email" name="email">
+            <input class="form-control" required type="email" name="email">
           </div>
         </div>
 
         <!-- wechat -->
-        <div class="form-group row d-flex justify-content-center">
-          <label for="wechat" class="col-sm-2 col-form-label">Wechat 微信 *</label>
-          <div class="col-sm-4">
-            <input class="form-control" required name="wechat">
-          </div>
-        </div>
-
-        <!-- name  -->
-        <div class="form-group row d-flex justify-content-center">
-          <label for="name" class="col-sm-2 col-form-label">Student Name 学生姓名 *</label>
-          <div class="col-sm-4">
-            <input class="form-control" required name="name">
-          </div>
-        </div>
-
-        <!-- grade  -->
         <!-- <div class="form-group row d-flex justify-content-center">
-          <label for="grade" class="col-sm-2 col-form-label">Student Grade 学生年级 *</label>
+          <label for="wechat" class="col-sm-2 col-form-label">Wechat 微信 (optional) </label>
           <div class="col-sm-4">
-            <input class="form-control" required name="grade">
+            <input class="form-control" name="wechat">
+          </div>
+        </div> -->
+
+        <!-- phone  -->
+        <!-- <div class="form-group row d-flex justify-content-center">
+          <label for="phone" class="col-sm-2 col-form-label">Phone 联系电话 (optional)</label>
+          <div class="col-sm-4">
+            <input class="form-control" name="phone">
           </div>
         </div> -->
 
@@ -149,7 +134,7 @@
 
         <!-- course 2  -->
         <div class="form-group row d-flex justify-content-center">
-          <label for="course2" class="col-sm-2 col-form-label">Course 报名课程 2</label>
+          <label for="course2" class="col-sm-2 col-form-label">Course 报名课程 2 (optional)</label>
           <div class="col-sm-4">
             <select class="form-control" name="course2">
               <option selected="selected" hidden="hidden"></option>
@@ -186,7 +171,7 @@
 
         <!-- course 3  -->
         <div class="form-group row d-flex justify-content-center">
-          <label for="course3" class="col-sm-2 col-form-label">Course 报名课程 3</label>
+          <label for="course3" class="col-sm-2 col-form-label">Course 报名课程 3 (optional)</label>
           <div class="col-sm-4">
             <select class="form-control" name="course3">
               <option selected="selected" hidden="hidden"></option>
